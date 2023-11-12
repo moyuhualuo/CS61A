@@ -106,6 +106,7 @@ def has_path(t, word):
         return True
     for b in branches(t):
         if has_path(b, word[1:]):
+            
             return True
     return False
 
